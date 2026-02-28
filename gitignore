@@ -1,0 +1,28 @@
+# Dataset (not to be shared publicly)
+*.xlsx
+*.xls
+*.csv
+
+# Keep the cleaned/segmented outputs if you want to share them (remove lines above selectively)
+# HousesMadridClean.xlsx
+# Madrid_Rental_Segmented.xlsx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Word/Office temp files
+~$*.docx
+~$*.xlsx
