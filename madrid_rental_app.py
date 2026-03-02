@@ -30,7 +30,7 @@ st.set_page_config(page_title="Madrid Rental Market", page_icon="🏠", layout="
 
 @st.cache_data
 def load_and_clean_data():
-    df = pd.read_excel("data/Houses for rent in Madrid.xlsx")
+    df = pd.read_excel("Houses for rent in Madrid.xlsx")
 
     # Drop column with 64% missing values
     df = df.drop(columns='Number')
